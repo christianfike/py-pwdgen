@@ -13,7 +13,7 @@ path = str(input("Default or custom password generator? (d/c)\n"))
 
 
 if path.lower() == 'd' or path.lower() == 'default':
-    print("\nUsing default password generator (20 characters long with the use of numbers and symbols).")
+    print("\nUsing default password generator. (20 characters long with the use of numbers and symbols)")
 
     ## Getting random letters, symbols, and numbers
     nr_numbers = random.randint(1, 4)
